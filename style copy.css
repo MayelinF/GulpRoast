@@ -1,0 +1,95 @@
+nav {
+    background-color: #082B59; 
+    border-bottom: 8px solid #D98555; 
+    text-align: center; 
+}
+
+.navIcon{
+    list-style: none;
+    color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+ul {
+    margin-bottom: 15px;
+}
+.gulpIcon{
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.landingGrid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.pouringCoffee {
+    width: 100%;
+    margin: 0;
+    background-color: #59331D;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.coffeeCard {
+    background-color: #59331D;
+    margin: 25px;
+    border-radius: 5%;
+}
+
+.imageCaption {
+    background-color: #59331D;
+    color:#F2F2F2;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+img {
+    margin: 0;
+}
+
+*,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 175%;
+}
+
+body {
+    background-color: #f2f2f2;
+    font: Lato;
+}
+.contactUsButton {
+    background-color: #59331D;
+    color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10%;
+    margin-top: 15px;
+    width: 100px;
+}
+
+
+footer {
+    background-color: #122C56;
+    color: #F2F2F2;
+    padding: 20px;
+    text-align: center;
+    border-top: 8px solid #D98555;;
+}
+.aboutUsText {
+    padding: 50px;
+}
